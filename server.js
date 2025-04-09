@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app = express();
 app.use(cors({
-  origin: ["http://localhost:3000", "https://horoscope-frontend-g223.onrender.com"],
+  origin: ["http://localhost:3000", "https://horoscope-frontend-g223.onrender.com","https://boonnampa.com"],
   methods: ["GET", "POST"]
 }));
 
